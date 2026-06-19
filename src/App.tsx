@@ -160,7 +160,7 @@ export default function App() {
               <div className="flex items-center gap-1.5">
                 <span className="font-extrabold text-xl tracking-tight text-slate-900 font-display">Reserva<span className="text-emerald-600">Pro</span></span>
                 <span className="bg-emerald-50 text-emerald-800 border border-emerald-100 text-[10px] font-bold px-2 py-0.5 rounded-full">
-                  PROTOTIPO EN VIVO
+                  PROTOTIPO
                 </span>
               </div>
               <p className="text-[10px] text-slate-400 font-medium">Automatización de reservas con Inteligencia Artificial</p>
@@ -170,7 +170,7 @@ export default function App() {
           <div className="flex items-center gap-4">
             <div className="hidden md:flex items-center gap-1.5 text-xs text-slate-500 font-medium">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-              <span>Servidor Demo: Listo</span>
+              <span>Estado Demo: En Proceso</span>
             </div>
             <button
               onClick={handleResetEntireDemo}
