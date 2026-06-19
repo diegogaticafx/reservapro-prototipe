@@ -50,9 +50,9 @@ export default function WhatsAppSimulator({
   const chatEndRef = useRef<HTMLDivElement>(null);
 
   // Auto-scroll on new messages
-  // useEffect(() => {
-  //   chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  // }, [messages, isTyping]);
+ useEffect(() => {
+     chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+   }, [messages, isTyping]);
 
   const addMessage = (sender: 'client' | 'ia', text: string, button?: any) => {
     const now = new Date();
