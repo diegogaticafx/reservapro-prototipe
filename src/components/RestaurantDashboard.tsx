@@ -54,7 +54,7 @@ export default function RestaurantDashboard({
               Panel del Restaurante <span className="text-xs bg-slate-800 px-2 py-0.5 rounded-full text-slate-400 font-normal">Sincronización Activa</span>
             </h2>
           </div>
-          <p className="text-xs text-slate-400 mt-0.5">La Mesa de ReservaPro • Demostración de Backoffice en Vivo</p>
+          <p className="text-xs text-slate-400 mt-0.5">Panel Administrativo ReservaPro • Demostración de Backoffice en Vivo</p>
         </div>
         <div className="flex items-center gap-2">
           <div className="bg-slate-900 border border-slate-800 rounded-xl px-3 py-1.5 flex items-center gap-2">
