@@ -275,7 +275,7 @@ export default function App() {
               <div className="bg-white/5 border border-white/10 p-3 rounded-xl flex flex-col items-center text-center">
                 <Database className="w-5 h-5 text-emerald-400 mb-1" />
                 <h4 className="font-bold text-[10px] text-white font-sans">CRM Simple</h4>
-                <p className="text-[9px] text-slate-500 mt-0.5">Controla mesas y pagos en un panel</p>
+                <p className="text-[9px] text-slate-500 mt-0.5">Controla mesas, clientes y pagos en un panel</p>
               </div>
             </div>
           </div>
